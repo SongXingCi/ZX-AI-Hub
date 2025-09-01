@@ -264,9 +264,9 @@ export DB_PASSWORD="your-db-password"
 
 ## 📧 联系方式
 
-- 项目维护者：[您的姓名]
-- 邮箱：[your.email@example.com]
-- 项目链接：[https://github.com/yourusername/zx-ai-hub](https://github.com/yourusername/zx-ai-hub)
+- 项目维护者：[宋汶达]
+- 邮箱：[534577268@qq.com]
+- 项目链接：[https://github.com/SongXingCi/ZX-AI-Hub]
 
 ## 🙏 致谢
 
