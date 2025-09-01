@@ -1,0 +1,56 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+maven-build-info.xml
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Logs
+log/
+*.log
+logs/
+*.log.*
+
+# Spring Boot
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Misc
+*.swp
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehcache.xml
+**/hsperfdata_*
+**/apidocs/
+**/archetype.properties
+**/findbugsExcludeFilter.xml
+**/test-output/
+**/test-output/**
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+*.log.*

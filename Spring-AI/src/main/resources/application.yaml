@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: Spring-AI
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: deepseek-r1:7b
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: qwen-max-latest
+      embedding:
+        options:
+            model: text-embedding-v3
+            dimensions: 1024
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/itheima?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
+    username: root
+    password: 123456
+logging:
+  level:
+    org.springframework.ai: debug
+    com.Spring-AI: debug
